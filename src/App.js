@@ -9,6 +9,7 @@ function App() {
 
   console.log("peek", ref);
 
+  //GET CALL REALTIME
   function getSchools() {
     setLoading(true);
     ref.onSnapshot((querySnapshot) => {
